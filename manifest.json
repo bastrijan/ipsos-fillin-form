@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "Ipsos Fill Fields",
+  "description": "Automatically fill-in fields in the Ipsos form",
+  "content_scripts": [
+        {
+            "matches": [
+                "https://*.ipsosadria.com/*",
+                "https://*.ipsosinteractive.com/*",
+                "https://*.kupinapopust.mk/*",
+                "http://*.kupinapopust.local/*"
+            ],
+            "js": [
+                "app.js"
+            ]
+        }
+    ]
+}
