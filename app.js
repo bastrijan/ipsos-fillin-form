@@ -1,6 +1,7 @@
 // TODO
 // - da zastane ako ima slika
 // - da zastane ako ima trik prasanje
+// - da moze da se selektira samo ednas opcijata "Znamko uporabljam najpogosteje"
 
 forms = document.forms;
 
