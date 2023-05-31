@@ -2,6 +2,20 @@
 // - da zastane ako ima slika
 // - da zastane ako ima trik prasanje
 // - da moze da se selektira samo ednas opcijata "Znamko uporabljam najpogosteje"
+// - kaj checkbox da ne se oznacuje posledno "drugo" zatoa sto mozebi treba da se dopisuva
+// - kako da se napravi avtomatski da poceka malku i da napravi submit
+// - da zastane vo slucaj da ne e checkbox ili radio, toa znaci deka treba racno da se zapise tekst
+
+// vo slucaj koga nema class so to ime
+if(document.getElementsByClassName('mrBannerText').length == 0) 
+{
+    return;
+}
+// vo slucaj koga e inner html prazno
+if(document.getElementsByClassName("mrBannerText")[0].innerHTML == "")
+{
+    return;
+}
 
 forms = document.forms;
 
