@@ -8,8 +8,7 @@
             "matches": [
                 "https://*.ipsosadria.com/*",
                 "https://*.ipsosinteractive.com/*",
-                "https://*.kupinapopust.mk/*",
-                "http://*.kupinapopust.local/*"
+                "http://*.ipsosanketa.com/*"
             ],
             "js": [
                 "app.js"

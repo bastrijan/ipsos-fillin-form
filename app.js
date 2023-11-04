@@ -1,21 +1,27 @@
-// TODO
+// TODO: 
+// - kaj checkbox da ne se odbira poslednata, kako sto e napraveno za radio button
+
+// - kaj radio Button i checkbox, barem ednas da ja odbere poslednata opcija.
+//   koga e slucaj checkbox, togas samo poslednata da ja odbira
+
+// - koga e checkbox da ne odbira povekje od 5 zatoa sto cesto ima ogranicuvanje do 5 opcii da se odbiraat. Idealno bi bilo da moze sam da procita kolku treba da odbore i tolku da odbira
 // - da zastane ako ima slika
 // - da zastane ako ima trik prasanje
 // - da moze da se selektira samo ednas opcijata "Znamko uporabljam najpogosteje"
-// - kaj checkbox da ne se oznacuje posledno "drugo" zatoa sto mozebi treba da se dopisuva
+// - kaj checkbox da ne se oznacuje opcijata "drugo" zatoa sto treba da se dopisuva
 // - kako da se napravi avtomatski da poceka malku i da napravi submit
 // - da zastane vo slucaj da ne e checkbox ili radio, toa znaci deka treba racno da se zapise tekst
 
 // vo slucaj koga nema class so to ime
-if(document.getElementsByClassName('mrBannerText').length == 0) 
-{
-    return;
-}
+//if(document.getElementsByClassName('mrBannerText').length == 0) 
+//{
+//    return;
+//}
 // vo slucaj koga e inner html prazno
-if(document.getElementsByClassName("mrBannerText")[0].innerHTML == "")
-{
-    return;
-}
+//if(document.getElementsByClassName("mrBannerText")[0].innerHTML == "")
+//{
+//    return;
+//}
 
 forms = document.forms;
 
