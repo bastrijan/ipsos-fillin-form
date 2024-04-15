@@ -32,7 +32,7 @@ for (form of forms) {
     for(element of form)
     {
         // alert('test');
-        myTimeout = setTimeout(Check, 10, element);
+        myTimeout = setTimeout(Check, 400, element);
     }
 
     form.onsubmit = function() {
